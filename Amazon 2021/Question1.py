@@ -1,3 +1,15 @@
+# Amazon Coding Assessment 2021
+# In simple words a program to develop autocomplete for a particular word
+# Input:
+# strs = ["mobile","mouse", "moneypot", "monitor", "mousepad"] 
+# customerQuery = "mouse"
+# Output:
+# ['mobile', 'mouse', 'moneypot']
+# ['mouse', 'mousepad']
+# ['mouse', 'mousepad']
+# ['mouse', 'mousepad']
+
+
 def solve(strs, customerQuery, i=0, j=2, ans=[]):
   if i < len(strs):
     if customerQuery[:j] in strs[i]:
